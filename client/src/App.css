@@ -1,0 +1,49 @@
+body{
+  background-color: lightgray;
+}
+
+.App {
+  text-align:center;
+  margin: 30px;
+  border-radius: 10px;
+  background-color: lightslategray;
+}
+
+.title-name {
+  padding: 10px;
+}
+
+.input-form, .delete-input {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  background-color: lightblue;
+}
+
+.delete-id{
+  margin: 30px;
+}
+
+.students-list {
+  font-size: 16px;
+  margin: 30px;
+  background-color: lightblue;
+}
+
+.student-button{
+  background: transparent;
+  background-color: white;
+  font-size: 16px;
+  border: none;
+  padding: 10px;
+  color: black;
+}
+
+.student-button:hover{
+  background-color: lightblue;
+  color: white;
+}
+
+.list-item{
+  padding: 10px;
+}
